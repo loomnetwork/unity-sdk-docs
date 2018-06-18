@@ -1,0 +1,7 @@
+###############
+#  temp file  #
+###############
+*.yml
+.manifest
+_site
+obj

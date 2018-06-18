@@ -1,0 +1,3 @@
+[submodule "unity-sdk"]
+	path = unity-sdk
+	url = git@github.com:loomnetwork/unity3d-sdk.git
