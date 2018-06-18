@@ -55,11 +55,18 @@
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Unity Loom SDK API Reference",
+      "_appLogoPath": "images/LoomLogo.png",
+      "_appFooter": "<span>Copyright © 2018 <strong>Loom Network</strong></span>",
+      "_enableSearch": true
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "theme/mathew/src"
+      "theme/mathew/src",
+      "theme/loom-sdk"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

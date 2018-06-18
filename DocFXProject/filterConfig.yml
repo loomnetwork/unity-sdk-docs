@@ -1,0 +1,70 @@
+apiRules:
+- include:
+    uidRegex: ^Microsoft\.DevDiv\.SpecialCase
+- exclude:
+    uidRegex: ^Microsoft\.DevDiv
+- exclude:
+    uidRegex: ^System\.Object
+- exclude:
+    uidRegex: \.(.+)FieldNumber
+- exclude:
+    uidRegex: \.(.+)GetHashCode
+- exclude:
+    uidRegex: \.(.+)ToString
+- exclude:
+    uidRegex: \.(.+)WriteTo
+- exclude:
+    uidRegex: \.(.+)MergeFrom
+- exclude:
+    uidRegex: \.(.+)Equals
+- exclude:
+    uidRegex: \.(.+)Clone
+- exclude:
+    uidRegex: \..+Calculate.+$
+- exclude:
+    uidRegex: \..+Descriptor$
+- exclude:
+    uidRegex: \..+Parser$
+- exclude:
+    uidRegex: \..+TransformChainEvent
+- exclude:
+    uidRegex: \..+ContractBase
+    type: Type
+- exclude:
+    uidRegex: \..+SignedTx$
+- exclude:
+    uidRegex: \..+NonceTx$
+- exclude:
+    uidRegex: \..+Address$
+- exclude:
+    uidRegex: \..+Transaction$
+- exclude:
+    uidRegex: \..+MessageTx$
+- exclude:
+    uidRegex: \..+DeployTx$
+- exclude:
+    uidRegex: \..+DeployResponse$
+- exclude:
+    uidRegex: \..+DeployResponseData$
+- exclude:
+    uidRegex: \..+CallTx$
+- exclude:
+    uidRegex: \..+PluginCode$
+- exclude:
+    uidRegex: \..+Request$
+- exclude:
+    uidRegex: \..+Response$
+- exclude:
+    uidRegex: \..+ContractMethodCall$
+- exclude:
+    uidRegex: \..+Event$
+- exclude:
+    uidRegex: \..+EvmTxReceipt$
+- exclude:
+    uidRegex: \..+LoomReflection$
+- exclude:
+    uidRegex: \..+BroadcastTxResult$
+- exclude:
+  # inherited Object methods
+  uidRegex: ^System\.Object\..*$
+  type: Method

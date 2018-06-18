@@ -1,7 +1,8 @@
 ###############
 #  temp file  #
 ###############
-*.yml
 .manifest
 _site
 obj
+api
+_exported_templates

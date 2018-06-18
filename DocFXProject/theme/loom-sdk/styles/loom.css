@@ -1,0 +1,18 @@
+.navbar-collapse.collapse {
+    position: relative;
+}
+
+.navbar-brand > img {
+    height: 85%;
+    top: 7.5%;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+
+#navbar >ul.nav li:last-of-type {
+    /*position: absolute;
+    right: 0;*/
+}
+
+}
